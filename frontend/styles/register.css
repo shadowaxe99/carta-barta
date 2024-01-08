@@ -1,0 +1,93 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7f6;
+}
+
+.register-box {
+  width: 350px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register-form input[type="submit"] {
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-form input[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+.register-form .form-group {
+  margin-bottom: 15px;
+}
+
+.register-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.register-form .form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form .form-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-form .form-footer a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+.register-form .form-footer a:hover {
+  text-decoration: underline;
+}
+
+.register-error {
+  color: #d9534f;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.register-success {
+  color: #5cb85c;
+  text-align: center;
+  margin-bottom: 15px;
+}
