@@ -1,0 +1,60 @@
+.analytics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chart-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+}
+
+.chart-description {
+  font-size: 1em;
+  color: #666666;
+}
+
+/* Styles for the analytics chart itself */
+#analyticsChart {
+  height: 400px;
+  width: 100%;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .chart-container {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .chart-title {
+    font-size: 1.2em;
+  }
+
+  .chart-description {
+    font-size: 0.9em;
+  }
+
+  #analyticsChart {
+    height: 300px;
+  }
+}

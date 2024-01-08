@@ -1,0 +1,26 @@
+{
+  "short_name": "Olvy",
+  "name": "Olvy - Cap Table Management & Customer Survey Tool",
+  "icons": [
+    {
+      "src": "assets/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#4E5B6E"
+}
